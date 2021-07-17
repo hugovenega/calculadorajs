@@ -1,0 +1,20 @@
+
+.cont{
+    border: solid 2px black;
+    width:210px;
+      background-color: lightblue;
+  }
+  .pantalla{
+    width:200px;
+    height:40px;
+    background-color: lightgrey;
+    border: solid 2px black;
+  }
+  button {
+    width:30px;
+    height: 30px;
+  }
+  
+  .cero{
+    width:98px;
+  }
