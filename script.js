@@ -44,5 +44,31 @@ function cero(){
  x= x + "0";
  mostrar();
 }
+
+function suma(){
+    x= x + "+";
+    mostrar();
+   }
+function resta(){
+    x= x + "-";
+    mostrar();
+   }
+function divi(){
+    x= x + "/";
+    mostrar();
+   }
+function mult(){
+    x= x + "*";
+    mostrar();
+   }
+   function del(){
+    x="";
+    mostrar();
+    document.getElementById("result"),innerHTML=x;
+   }
+function result(){
+    x= eval(x);
+    mostrar();
+   }   
    
    
